@@ -19,3 +19,6 @@ class GestorTareas:
         
         tarea = Tarea(titulo, descripcion)
         self.tareas.append(tarea)
+    
+    def obtener_tareas(self):
+        return self.tareas
